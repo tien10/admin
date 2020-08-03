@@ -160,7 +160,7 @@ class Products extends React.Component {
                     className="form-control"
                   ></input>
                 </div>
-                {/* <div className="form-group">
+                <div className="form-group">
                   <label>
                     <b>Image</b>
                   </label>
@@ -169,10 +169,10 @@ class Products extends React.Component {
                       this.imagechange(e);
                     }}
                     value={this.state.image_name}
-                    type="file"
+                    type="text"
                     className="form-control"
                   ></input>
-                </div> */}
+                </div>
                 <button className="btn btn-block btn-primary">Submit</button>
               </form>
             </div>
