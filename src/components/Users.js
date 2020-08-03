@@ -161,7 +161,7 @@ class Users extends React.Component {
                     className="form-control"
                   ></input>
                 </div>
-                <div className="form-group">
+                {/* <div className="form-group">
                   <label>
                     <b>Image</b>
                   </label>
@@ -173,7 +173,7 @@ class Users extends React.Component {
                     type="file"
                     className="form-control"
                   ></input>
-                </div>
+                </div> */}
                 <button className="btn btn-block btn-primary">Submit</button>
               </form>
             </div>
@@ -183,7 +183,7 @@ class Users extends React.Component {
                   <tr>
                     <th>ID</th>
                     <th>Name</th>
-                    <th>Image</th>
+                    {/* <th>Image</th> */}
                     <th>Email</th>
                     <th>Edit</th>
                     <th>Delete</th>
@@ -194,13 +194,13 @@ class Users extends React.Component {
                     <tr key={user._id}>
                       <td>{user._id}</td>
                       <td>{user.name}</td>
-                      <td>
+                      {/* <td>
                         <img
                           alt="image_name"
                           src={user.image_name}
                           style={{ width: 100 }}
                         ></img>
-                      </td>
+                      </td> */}
                       <td>{user.email}</td>
                       <td>
                         <button

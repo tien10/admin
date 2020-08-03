@@ -160,7 +160,7 @@ class Products extends React.Component {
                     className="form-control"
                   ></input>
                 </div>
-                <div className="form-group">
+                {/* <div className="form-group">
                   <label>
                     <b>Image</b>
                   </label>
@@ -172,7 +172,7 @@ class Products extends React.Component {
                     type="text"
                     className="form-control"
                   ></input>
-                </div>
+                </div> */}
                 <button className="btn btn-block btn-primary">Submit</button>
               </form>
             </div>
