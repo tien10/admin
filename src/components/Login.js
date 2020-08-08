@@ -63,7 +63,7 @@ class Login extends React.Component {
             </label>
             <input
               onChange={this.onChange}
-              type="text"
+              type="email"
               placeholder="Enter Email"
               id="email"
               required
